@@ -35,7 +35,7 @@ class Chart extends BaseChart {
 
     const svgTerritories = div.appendSelect('svg', 'territories')
       .attr('width', w)
-      .attr('height', 100)
+      .attr('height', 40)
 
     const g = svg.appendSelect('g')
       .attr('transform', 'translate(' + (-width / 20) + ', 0)');
@@ -102,7 +102,7 @@ class Chart extends BaseChart {
 
     // Append territories
     territories.forEach((territory, i) => {
-      if (terirtoryTuesday.includes(territory.Abbrev)){
+      if (territoryTuesday.includes(territory.Abbrev)){
         const xTotal = territory.Abbrev === 'PR' ? 11 : 8; //Math.ceil(Math.sqrt(territory.Pledged));
 
         const x0 = i * 70 + 10;
