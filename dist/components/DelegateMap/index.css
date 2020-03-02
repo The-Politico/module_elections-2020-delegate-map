@@ -1,0 +1,200 @@
+.politico_style___31_AfHNgf- {
+  color: #DC0228; }
+
+
+.politico_style___3ZpI7JJzkE {
+  color: #DC0228; }
+
+.politico_style___5c9Wlri3TU {
+  font-weight: normal;
+  pointer-events: none;
+  transition: all .2s;
+  z-index: 2;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 4px 4px 7px -2px rgba(0, 0, 0, 0.3);
+  padding: 13px;
+  min-width: 240px;
+  max-width: 270px;
+  border-left: 1px solid #f4f4f4;
+  border-top: 1px solid #f4f4f4; }
+  .politico_style___5c9Wlri3TU p {
+    font-family: "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0; }
+    .politico_style___5c9Wlri3TU p.state {
+      font-weight: bold; }
+    .politico_style___5c9Wlri3TU p.label {
+      font-size: .65rem;
+      text-transform: uppercase;
+      letter-spacing: 2.5px; }
+      .politico_style___5c9Wlri3TU p.label span {
+        padding: 1px 5px;
+        margin: 0 0 2px 0; }
+        .politico_style___5c9Wlri3TU p.label span.date {
+          background-color: #fffab7; }
+        .politico_style___5c9Wlri3TU p.label span.delegates {
+          background-color: #E5E7EB; }
+  .politico_style___5c9Wlri3TU table {
+    padding: 0px 0px 6px 0px;
+    margin: 6px 0px 6px 0px;
+    color: black;
+    text-shadow: none;
+    font-weight: normal;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%; }
+    .politico_style___5c9Wlri3TU table.show-false {
+      display: none; }
+    .politico_style___5c9Wlri3TU table th {
+      font-size: .7rem;
+      font-weight: normal;
+      border-bottom: 2px solid #f9f9f9;
+      padding: 0px 3px 1px 3px !important;
+      text-align: right; }
+      .politico_style___5c9Wlri3TU table th:first-child {
+        text-align: left; }
+    .politico_style___5c9Wlri3TU table td {
+      padding: 4px 3px 4px 3px !important;
+      font-size: .8rem;
+      border-bottom: 1px dashed #E5E7EB; }
+      .politico_style___5c9Wlri3TU table td span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+        margin-right: 4px; }
+        .politico_style___5c9Wlri3TU table td span.tom-steyer {
+          background-color: #D9C3A5; }
+        .politico_style___5c9Wlri3TU table td span.bernie-sanders {
+          background-color: #F68A41; }
+        .politico_style___5c9Wlri3TU table td span.elizabeth-warren {
+          background-color: #9AD3FC; }
+        .politico_style___5c9Wlri3TU table td span.joe-biden {
+          background-color: #329CAC; }
+        .politico_style___5c9Wlri3TU table td span.tulsi-gabbard {
+          background-color: #C3F4CD; }
+        .politico_style___5c9Wlri3TU table td span.amy-klobuchar {
+          background-color: #775180; }
+        .politico_style___5c9Wlri3TU table td span.pete-buttigieg {
+          background-color: #FFD682; }
+        .politico_style___5c9Wlri3TU table td span.mike-bloomberg {
+          background-color: #FFB2CB; }
+        .politico_style___5c9Wlri3TU table td span.other {
+          background-color: #ccc; }
+      .politico_style___5c9Wlri3TU table td:first-child {
+        padding-right: 6px; }
+      .politico_style___5c9Wlri3TU table td:nth-child(2) {
+        padding-right: 8px;
+        text-align: right; }
+      .politico_style___5c9Wlri3TU table td:nth-child(3) {
+        font-weight: bold;
+        text-align: right; }
+  .politico_style___5c9Wlri3TU .precinct, .politico_style___5c9Wlri3TU .total-votes {
+    font-size: .65em;
+    color: #666;
+    display: block; }
+  .politico_style___5c9Wlri3TU .show {
+    display: block; }
+  .politico_style___5c9Wlri3TU .hide {
+    display: none; }
+
+.politico_style___1YpKDsVXeu {
+  color: #DC0228; }
+
+.politico_style___2cioWd3vjN div.map-container {
+  position: relative; }
+  @media screen and (max-width: 800px) {
+    .politico_style___2cioWd3vjN div.map-container {
+      overflow-x: scroll;
+      width: 100vw; } }
+  .politico_style___2cioWd3vjN div.map-container div.gradient {
+    height: 100%;
+    width: 50px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), white);
+    position: fixed;
+    right: -5px;
+    top: 0; }
+    @media screen and (min-width: 800px) {
+      .politico_style___2cioWd3vjN div.map-container div.gradient {
+        display: none; } }
+  .politico_style___2cioWd3vjN div.map-container div.tooltip {
+    position: absolute;
+    pointer-events: none; }
+  .politico_style___2cioWd3vjN div.map-container svg.map, .politico_style___2cioWd3vjN div.map-container svg.territories {
+    display: block;
+    margin: 0 auto;
+    overflow: visible; }
+    .politico_style___2cioWd3vjN div.map-container svg.map path.map-base, .politico_style___2cioWd3vjN div.map-container svg.territories path.map-base {
+      fill: #EBEDF1;
+      stroke: white;
+      stroke-width: 1px; }
+    .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate {
+      fill: #CECFD3;
+      stroke: #E5E7EB;
+      stroke-width: .5px;
+      cursor: pointer; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.tom-steyer, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.tom-steyer {
+        fill: #D9C3A5; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.bernie-sanders, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.bernie-sanders {
+        fill: #F68A41; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.elizabeth-warren, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.elizabeth-warren {
+        fill: #9AD3FC; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.joe-biden, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.joe-biden {
+        fill: #329CAC; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.tulsi-gabbard, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.tulsi-gabbard {
+        fill: #C3F4CD; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.amy-klobuchar, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.amy-klobuchar {
+        fill: #775180; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.pete-buttigieg, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.pete-buttigieg {
+        fill: #FFD682; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.mike-bloomberg, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.mike-bloomberg {
+        fill: #FFB2CB; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.other, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.other {
+        fill: #ccc; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.selected, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.selected {
+        stroke: 1px solid #666; }
+      .politico_style___2cioWd3vjN div.map-container svg.map rect.delegate.automatic, .politico_style___2cioWd3vjN div.map-container svg.territories rect.delegate.automatic {
+        fill: #B1B4BD; }
+    .politico_style___2cioWd3vjN div.map-container svg.map text.state-label, .politico_style___2cioWd3vjN div.map-container svg.territories text.state-label {
+      font-family: "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: .7rem;
+      font-weight: bold; }
+
+.politico_style___DA28nWgF_b {
+  color: #DC0228; }
+
+.politico_style___12Jvk6JgOO {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 850px;
+  margin: 0 auto; }
+  .politico_style___12Jvk6JgOO p {
+    font-family: "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 15px;
+    font-size: .95rem;
+    line-height: 1.2; }
+    .politico_style___12Jvk6JgOO p span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 8px;
+      margin-right: 4px; }
+      .politico_style___12Jvk6JgOO p span.tom-steyer {
+        background-color: #D9C3A5; }
+      .politico_style___12Jvk6JgOO p span.bernie-sanders {
+        background-color: #F68A41; }
+      .politico_style___12Jvk6JgOO p span.elizabeth-warren {
+        background-color: #9AD3FC; }
+      .politico_style___12Jvk6JgOO p span.joe-biden {
+        background-color: #329CAC; }
+      .politico_style___12Jvk6JgOO p span.tulsi-gabbard {
+        background-color: #C3F4CD; }
+      .politico_style___12Jvk6JgOO p span.amy-klobuchar {
+        background-color: #775180; }
+      .politico_style___12Jvk6JgOO p span.pete-buttigieg {
+        background-color: #FFD682; }
+      .politico_style___12Jvk6JgOO p span.mike-bloomberg {
+        background-color: #FFB2CB; }
+      .politico_style___12Jvk6JgOO p span.other {
+        background-color: #ccc; }
