@@ -16,14 +16,9 @@ const App = () => {
       <CodeBlock
         value={`import { DelegateMap } from '@politico/module_super-tuesday-delegate-map';
 
-<DelegateMap
-  props={{
-    primary: 'red',
-    secondary: 'blue',
-  }}
-
-  data={[40, 35]}
-/>
+        <DelegateMap
+          data={data}
+        />
 `}
       />
     </Page>
