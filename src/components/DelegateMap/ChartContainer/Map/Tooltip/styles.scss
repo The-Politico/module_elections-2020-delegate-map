@@ -1,0 +1,99 @@
+@import "~@politico/interactive-style/vars.scss";
+@import 'Theme/mixins.scss';
+
+.component :global {
+     font-weight: normal;
+     pointer-events: none;
+     transition: all .2s;
+     z-index:2;
+     background: white;
+     border-radius: 2px;
+     box-shadow: 4px 4px 7px -2px rgba(0,0,0,.3);
+     padding: 13px;
+     min-width: 240px;
+     max-width: 270px;
+     border-left: 1px solid #f4f4f4;
+     border-top: 1px solid #f4f4f4;
+     p {
+       font-family: $din;
+       margin-bottom: 0;
+       &.state {
+         font-weight: bold;
+       }
+       &.label {
+         font-size: .65rem;
+         text-transform: uppercase;
+         letter-spacing: 2.5px;
+         span {
+           padding: 1px 5px;
+           margin: 0 0 2px 0;
+           &.date {
+             background-color: $highlighter-yellow;
+           }
+           &.delegates {
+             background-color: $button;
+           }
+         }
+       }
+     }
+     table {
+       padding: 0px 0px 6px 0px;
+       margin: 6px 0px 6px 0px;
+       color: black;
+       text-shadow: none;
+       font-weight: normal;
+       border-collapse: collapse;
+       text-align: left;
+       width: 100%;
+       &.show-false {
+         display: none;
+       }
+       th {
+         font-size: .7rem;
+         font-weight: normal;
+         border-bottom: 2px solid #f9f9f9;
+         padding: 0px 3px 1px 3px !important;
+         text-align: right;
+         &:first-child {
+           text-align: left;
+         }
+       }
+       td {
+         padding: 4px 3px 4px 3px !important;
+         font-size: .8rem;
+         border-bottom: 1px dashed $button;
+         span {
+           @include background-color;
+           display: inline-block;
+           width: 8px;
+           height: 8px;
+           border-radius: 8px;
+           margin-right: 4px;
+         }
+         &:first-child{
+           padding-right: 6px;
+         }
+         &:nth-child(2) {
+           padding-right: 8px;
+           text-align: right;
+         }
+         &:nth-child(3){
+           font-weight: bold;
+           text-align: right;
+         }
+       }
+     }
+     .precinct, .total-votes {
+       font-size: .65em;
+       color: $satan;
+       display: block;
+     }
+     .show {
+       display: block;
+     }
+
+     .hide {
+       display: none;
+     }
+
+}

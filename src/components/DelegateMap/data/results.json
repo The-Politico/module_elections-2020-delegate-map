@@ -1,0 +1,138 @@
+[
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "Dem",
+    "name": "Sanders",
+    "ap_id": 1445,
+    "delegates": 12
+  },
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "Dem",
+    "name": "Biden",
+    "ap_id": 1036,
+    "delegates": 6
+  },
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "Dem",
+    "name": "Buttigieg",
+    "ap_id": 67933,
+    "delegates": 14
+  },
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "Dem",
+    "name": "Warren",
+    "ap_id": 62244,
+    "delegates": 8
+  },
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "Dem",
+    "name": "Klobuchar",
+    "ap_id": 51526,
+    "delegates": 1
+  },
+  {
+    "state_abbr": "nv",
+    "election_date": "2020-02-22",
+    "party": "Dem",
+    "name": "Sanders",
+    "ap_id": 1445,
+    "delegates": 24
+  },
+  {
+    "state_abbr": "nv",
+    "election_date": "2020-02-22",
+    "party": "Dem",
+    "name": "Biden",
+    "ap_id": 1036,
+    "delegates": 9
+  },
+  {
+    "state_abbr": "nv",
+    "election_date": "2020-02-22",
+    "party": "Dem",
+    "name": "Buttigieg",
+    "ap_id": 67933,
+    "delegates": 3
+  },
+  {
+    "state_abbr": "nh",
+    "election_date": "2020-02-11",
+    "party": "Dem",
+    "name": "Sanders",
+    "ap_id": 1445,
+    "delegates": 9
+  },
+  {
+    "state_abbr": "nh",
+    "election_date": "2020-02-11",
+    "party": "Dem",
+    "name": "Buttigieg",
+    "ap_id": 67933,
+    "delegates": 9
+  },
+  {
+    "state_abbr": "nh",
+    "election_date": "2020-02-11",
+    "party": "Dem",
+    "name": "Klobuchar",
+    "ap_id": 51526,
+    "delegates": 6
+  },
+  {
+    "state_abbr": "sc",
+    "election_date": "2020-02-29",
+    "party": "Dem",
+    "name": "Sanders",
+    "ap_id": 1445,
+    "delegates": 15
+  },
+  {
+    "state_abbr": "sc",
+    "election_date": "2020-02-29",
+    "party": "Dem",
+    "name": "Biden",
+    "ap_id": 1036,
+    "delegates": 39
+  },
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "GOP",
+    "name": "Trump",
+    "ap_id": 8639,
+    "delegates": 39
+  },
+  {
+    "state_abbr": "ia",
+    "election_date": "2020-02-03",
+    "party": "GOP",
+    "name": "Weld",
+    "ap_id": 67972,
+    "delegates": 1
+  },
+  {
+    "state_abbr": "nv",
+    "election_date": "2020-02-22",
+    "party": "GOP",
+    "name": "Trump",
+    "ap_id": 8639,
+    "delegates": 25
+  },
+  {
+    "state_abbr": "nh",
+    "election_date": "2020-02-11",
+    "party": "GOP",
+    "name": "Trump",
+    "ap_id": 8639,
+    "delegates": 22
+  }
+]

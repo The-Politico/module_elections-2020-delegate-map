@@ -1,0 +1,217 @@
+$Biden: #329CAC;
+$Sanders: #F68A41;
+$Warren: #9AD3FC;
+$Klobuchar: #775180;
+$Buttigieg: #FFD682;
+$Steyer: #D9C3A5;
+$Bloomberg: #FFB2CB;
+$Gabbard: #C3F4CD;
+$other: #ccc;
+
+@mixin background-color {
+  &.tom-steyer {
+    background-color: $Steyer;
+  }
+  &.bernie-sanders {
+    background-color: $Sanders;
+  }
+  &.elizabeth-warren {
+    background-color: $Warren;
+  }
+  &.joe-biden {
+    background-color: $Biden;
+  }
+  &.tulsi-gabbard {
+    background-color: $Gabbard;
+  }
+  &.amy-klobuchar {
+    background-color: $Klobuchar;
+  }
+  &.pete-buttigieg {
+    background-color: $Buttigieg;
+  }
+  &.mike-bloomberg {
+    background-color: $Bloomberg;
+  }
+  &.other {
+    background-color: $other;
+  }
+}
+
+
+@mixin fill-color {
+  &.tom-steyer {
+    fill: $Steyer;
+  }
+  &.bernie-sanders {
+    fill: $Sanders;
+  }
+  &.elizabeth-warren {
+    fill: $Warren;
+  }
+  &.joe-biden {
+    fill: $Biden;
+  }
+  &.tulsi-gabbard {
+    fill: $Gabbard;
+  }
+  &.amy-klobuchar {
+    fill: $Klobuchar;
+  }
+  &.pete-buttigieg {
+    fill: $Buttigieg;
+  }
+  &.mike-bloomberg {
+    fill: $Bloomberg;
+  }
+  &.other {
+    fill: $other;
+  }
+}
+
+@mixin text-color {
+  &.tom-steyer {
+    color: $Steyer;
+  }
+  &.bernie-sanders {
+    color: $Sanders;
+  }
+  &.elizabeth-warren {
+    color: $Warren;
+  }
+  &.joe-biden {
+    color: $Biden;
+  }
+  &.tulsi-gabbard {
+    color: $Gabbard;
+  }
+  &.amy-klobuchar {
+    color: $Klobuchar;
+  }
+  &.pete-buttigieg {
+    color: $Buttigieg;
+  }
+  &.mike-bloomberg {
+    color: $Bloomberg;
+  }
+  &.other {
+    color: $other;
+  }
+}
+
+@mixin stroke-color {
+  &.tom-steyer {
+    stroke: $Steyer;
+  }
+  &.bernie-sanders {
+    stroke: $Sanders;
+  }
+  &.elizabeth-warren {
+    stroke: $Warren;
+  }
+  &.joe-biden {
+    stroke: $Biden;
+  }
+  &.tulsi-gabbard {
+    stroke: $Gabbard;
+  }
+  &.amy-klobuchar {
+    stroke: $Klobuchar;
+  }
+  &.pete-buttigieg {
+    stroke: $Buttigieg;
+  }
+  &.mike-bloomberg {
+    stroke: $Bloomberg;
+  }
+  &.other {
+    stroke: $other;
+  }
+}
+
+@mixin headshot-color {
+  &.tom-steyer {
+    .border-container .background {
+      background-color: $Steyer;
+      border: 2px solid $Steyer;
+    }
+  }
+  &.bernie-sanders {
+    .border-container .background {
+      background-color: $Sanders;
+      border: 2px solid $Sanders;
+    }
+  }
+  &.elizabeth-warren {
+    .border-container .background {
+      background-color: $Warren;
+      border: 2px solid $Warren;
+    }
+  }
+  &.joe-biden {
+    .border-container .background {
+      background-color: $Biden;
+      border: 2px solid $Biden;
+    }
+  }
+  &.tulsi-gabbard {
+    .border-container .background {
+      background-color: $Gabbard;
+      border: 2px solid $Gabbard;
+    }
+  }
+  &.amy-klobuchar {
+    .border-container .background {
+      background-color: $Klobuchar;
+      border: 2px solid $Klobuchar;
+    }
+  }
+  &.pete-buttigieg {
+    .border-container .background {
+      background-color: $Buttigieg;
+      border: 2px solid $Buttigieg;
+    }
+  }
+  &.mike-bloomberg {
+    .border-container .background {
+      background-color: $Bloomberg;
+      border: 2px solid $Bloomberg;
+    }
+  }
+  &.other {
+    .border-container .background {
+      background-color: $other;
+      border: 2px solid $other;
+    }
+  }
+}
+
+@mixin border-color {
+  &.tom-steyer {
+    border: 2px solid $Steyer;
+  }
+  &.bernie-sanders {
+    border: 2px solid $Sanders;
+  }
+  &.elizabeth-warren {
+    border: 2px solid $Warren;
+  }
+  &.joe-biden {
+    border: 2px solid $Biden;
+  }
+  &.tulsi-gabbard {
+    border: 2px solid $Gabbard;
+  }
+  &.amy-klobuchar {
+    border: 2px solid $Klobuchar;
+  }
+  &.pete-buttigieg {
+    border: 2px solid $Buttigieg;
+  }
+  &.mike-bloomberg {
+    border: 2px solid $Bloomberg;
+  }
+  &.other {
+    border: 2px solid $other;
+  }
+}

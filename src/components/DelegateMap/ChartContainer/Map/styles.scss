@@ -1,0 +1,59 @@
+@import "~@politico/interactive-style/vars.scss";
+@import 'Theme/mixins.scss';
+
+.component :global {
+  div.map-container {
+    position: relative;
+    @media screen and (max-width: 800px){
+      overflow-x: scroll;
+      width: 100vw;
+    }
+    div.gradient {
+      height: 100%;
+      width: 50px;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), white);
+      position: fixed;
+      right: -5px;
+      top: 0;
+      @media screen and (min-width: 800px){
+        display: none;
+      }
+    }
+    div.tooltip {
+      position: absolute;
+      pointer-events: none;
+    }
+    svg.map, svg.territories {
+      //border: 1px solid $gray;
+      display: block;
+      margin: 0 auto;
+      overflow: visible;
+      path.map-base {
+        fill: #EBEDF1;
+        stroke: white;//$button;//#EBEDF1;
+        stroke-width: 1px;
+      }
+      rect.delegate {
+        fill: #CECFD3;
+        stroke: $button;
+        stroke-width: .5px;
+        @include fill-color;
+        cursor: pointer;
+        &.selected {
+          stroke: 1px solid $satan;
+        }
+        &.automatic {
+          fill: $gray;
+          // stroke: #CECFD3;
+          // stroke-width: 1px;
+        }
+      }
+      text.state-label {
+        font-family: $din;
+        font-size: .7rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
