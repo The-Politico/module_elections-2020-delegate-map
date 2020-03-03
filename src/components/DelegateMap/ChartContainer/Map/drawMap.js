@@ -14,8 +14,9 @@ class Chart extends BaseChart {
     const node = this.selection().node();
     const data = this.data()[0];
     const territories = this.data()[1];
-    const div = d3.select(node).appendSelect('div', 'map-container');
-    div.appendSelect('div', 'gradient');
+    const divWrapper = d3.select(node).appendSelect('div', 'map-wrapper');
+    divWrapper.appendSelect('div', 'gradient');
+    const div = divWrapper.appendSelect('div', 'map-container');
 
     const width = div._groups[0][0].offsetWidth;
     const w = 1000;

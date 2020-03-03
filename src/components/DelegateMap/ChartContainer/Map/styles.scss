@@ -2,23 +2,27 @@
 @import './../../../../theme/mixins.scss';
 
 .component :global {
+
+  .map-wrapper {
+    overflow: hidden;
+    position: relative;
+    div.gradient {
+      height: 100%;
+      width: 50px;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+      position: absolute;
+      right: -5px;
+      top: 0;
+      z-index: 1;
+    }
+  }
   div.map-container {
     position: relative;
     @media screen and (max-width: 800px){
       overflow-x: scroll;
       width: 100vw;
     }
-    div.gradient {
-      height: 100%;
-      width: 50px;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0), white);
-      position: fixed;
-      right: -5px;
-      top: 0;
-      @media screen and (min-width: 800px){
-        display: none;
-      }
-    }
+
     div.tooltip {
       position: absolute;
       pointer-events: none;
