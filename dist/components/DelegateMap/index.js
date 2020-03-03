@@ -194,8 +194,9 @@ var Chart = /*#__PURE__*/function (_BaseChart) {
       var node = this.selection().node();
       var data = this.data()[0];
       var territories = this.data()[1];
-      var div = d3.select(node).appendSelect('div', 'map-container');
-      div.appendSelect('div', 'gradient');
+      var divWrapper = d3.select(node).appendSelect('div', 'map-wrapper');
+      divWrapper.appendSelect('div', 'gradient');
+      var div = divWrapper.appendSelect('div', 'map-container');
       var width = div._groups[0][0].offsetWidth;
       var w = 1000;
       var h = w * 2 / 3;
